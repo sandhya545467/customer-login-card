@@ -1,0 +1,67 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ .container{
+    background-image: url(../../business-corporate-protection-safety-security-concept.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background: white;
+    box-shadow: 0 0 10px black;
+    width: 600px;
+    border-radius: 5px;
+
+}
+.card-image-container img{
+    width: 300px;
+}
+.card-login{
+    width: 300px;
+    background: white;
+    box-shadow: 0  0 10px black;
+    border-radius: 5px;
+    margin: 30px;
+    }
+.login-header span{
+    font-size: 24px;
+    font-weight: 600;
+}
+.login-content{
+    padding: 10px;
+}
+.login-content-span{
+    margin-bottom: 10px;
+}
+.login-content-span label{
+    font-size: 18px;
+}
+.login-content-span input{
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: 2px solid #7c7c7c;
+    margin-top: 5px;
+}
+.login-content-span input:focus{
+    outline: 2px solid green;
+}
+.login-action{
+    padding: 10px;
+}
+.login-action button{
+    width: 70px;
+    height: 30px;
+    background: crimson;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
